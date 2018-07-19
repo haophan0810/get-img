@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img__copy {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #2dbeba;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+.img__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2dbeba;
+    font-size: 25px;
+}
+
+.output__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.output__content:nth-child(odd){
+    background-color: aliceblue;
+}
+section.output-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width:  1140px;
+    margin: auto;
+}
+
+button.click-random {
+    /* margin-top:  30px; */
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-top:  50px;
+    background-color: #05beba;
+    color: white;
+    border: 0 solid;
+    margin-bottom: 50px;
+}
+
+.input-wrap {
+    padding: 20px 0;
+    flex: 1 0 0;
+    display: flex;
+    padding-right: 40px;
+}
+
+.input__topic {
+    flex: 2 0 0;
+    padding-right: 0;
+}
+
+
+
+input {font-size: 20px;width: 80%;padding: 5px;}
+
+label {
+    padding-right: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+section.input {
+    max-width:  1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+img {
+    width: 150px;
+    display: block;
+    height: 150px;
+}
+
+button:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input {
+    -moz-appearance:textfield;
+}
+.container-src {
+    /* visibility: hidden; */
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.color-red {
+    color: red;
+}
